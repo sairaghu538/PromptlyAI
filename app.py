@@ -4,6 +4,8 @@ from transformers import pipeline
 import os
 from dotenv import load_dotenv
 
+print(transformers.__version__)
+
 # Load environment variables from the .env file
 load_dotenv()
 
